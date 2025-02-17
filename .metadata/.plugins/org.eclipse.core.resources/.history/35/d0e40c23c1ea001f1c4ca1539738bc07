@@ -1,0 +1,37 @@
+package com.example.nagoyameshi.controller;
+
+import com.example.nagoyameshi.form.PasswordResetForm;
+import com.example.nagoyameshi.service.PasswordResetService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+@Controller
+public class PasswordResetController {
+
+    @Autowired
+    private PasswordResetService passwordResetService;
+
+    // パスワード再設定ページの表示
+    @GetMapping("/password/sendmail")
+    public String showPasswordResetPage(Model model) {
+        model.addAttribute("passwordResetForm", new PasswordResetForm());
+        return "password/sendmail";  // sendmail.htmlを表示
+    }
+
+    // パスワードリセット用のメール送信
+    @PostMapping("/reset")
+    public String resetPassword(@ModelAttribute PasswordResetForm passwordResetForm) {
+        // メール送信処理
+        boolean sent = passwordResetService.sendPasswordResetMail(passwordResetForm.getEmail());
+
+        if (sent) {
+            return "redirect:/password/sendmail?success";  // 送信成功時のリダイレクト
+        } else {
+            return "redirect:/password/sendmail?error";   // 送信失敗時のリダイレクト
+        }
+    }
+}

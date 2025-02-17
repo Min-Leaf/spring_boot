@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="502"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="439"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/controller/HomeController.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/service/UserService.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/repository/UserRepository.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/security/WebSecurityConfig.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/controller/RestaurantController.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/entity/Restaurant.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/repository/RestaurantRepository.java"/>
+			<item value="/nagoyameshi/src/main/resources/static/js/stripe.js"/>
+			<item value="/nagoyameshi/src/test/java/com/example/nagoyameshi/controller/RestaurantControllerTest.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/controller/AdminRestaurantController.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/service/CategoryService.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/repository/CategoryRepository.java"/>
+			<item value="/Servers/Tomcat10_Java17-config/server.xml"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/form/RestaurantEditForm.java"/>
+			<item value="/nagoyameshi/src/main/java/com/example/nagoyameshi/form/RestaurantRegisterForm.java"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+		</list>
+		<list key="textEntries">
+			<item value="2"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="homecontroller.java"/>
+			<item value="ターミナル"/>
+			<item value="userservice.java"/>
+			<item value="userservice.java&#x0A;&#x0A;"/>
+			<item value="userrepository.java"/>
+			<item value="websecurityconfig.java"/>
+			<item value="websecurityconfig.java&#x0A;&#x0A;"/>
+			<item value="restaurantcontroller.java"/>
+			<item value="restaurant.java"/>
+			<item value="restaurantrepository.java"/>
+			<item value="restaurantrepository.java&#x0A;&#x0A;"/>
+			<item value="stripe.js"/>
+			<item value="restaurantcontrollertest.java"/>
+			<item value="adminrestaurantcontroller.java"/>
+			<item value="restaurantcontroller.java&#x0A;&#x0A;"/>
+			<item value="categoryservice.java"/>
+			<item value="categoryrepository.java"/>
+			<item value="server.xml"/>
+			<item value="restauranteditform.java"/>
+			<item value="restaurantregisterform.java"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="34"/>
+		<item key="DIALOG_Y_ORIGIN" value="-108"/>
+		<item key="DIALOG_WIDTH" value="1008"/>
+		<item key="DIALOG_HEIGHT" value="732"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+</section>
